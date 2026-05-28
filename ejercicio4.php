@@ -1,9 +1,11 @@
 <?php
 
-// Ejercicio 4: Completa el siguiente código para imprimir por pantalla los números del 1 al 10 uno debajo del otro utilizando un bucle while.
+// Ejercicio 4: Completa el siguiente código para imprimir por pantalla los números
+//  del 1 al 10 uno debajo del otro utilizando un bucle while.
 //Complejidad: BAJA (1 punto)
 
-$i = 1;
-while (...) {
-    // Tu código aquí
+$i = 0;
+while ($i < 10){
+     $i++;
+    echo "$i . <br>";
 }
